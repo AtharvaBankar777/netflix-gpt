@@ -1,13 +1,32 @@
 
-
+import { Children } from "react";
+import Body from "./components/Body";
+import Login from "./components/Login";
+import Browse from "./components/Browse";
+import { createBrowserRouter } from "react-router-dom";
+import { RouterProvider } from "react-router-dom";
 
 function App() {
+
+  const appRouter=createBrowserRouter([
+    {
+      path:"/",
+      element:<Body/>,
+      children:[{
+        path:"/",
+        element:<Login/>
+      },{
+        path:"/browse",
+        element:<Browse/>
+      }]
+    }
+  ])
+
+
   return (
-    <div className="min-h-screen bg-black text-white flex items-center justify-center">
-      <h1 className="text-3xl font-bold text-red-600">
-        Netflix GPT 🔥
-      </h1>
-    </div>
+    <>
+      <RouterProvider router={appRouter}/>
+    </>
   );
 }
 
