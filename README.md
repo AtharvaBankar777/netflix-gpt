@@ -1,5 +1,26 @@
-npm create vite@latest
-configured Tailwindcss
+
+
+
+NetflixGPT:
+    npm create vite@latest
+    configured Tailwindcss
+    Header
+    Routing of App
+    Login Form
+    signUp Form
+    Form Validation 
+    UseRef Hook (ref={} useRef(null))
+    Firebase setup
+    Deploying our app to production
+    Create Signup User Account
+    Implement Sign In User Api
+    Created Redux Slice with userSlice 
+    Implemented SignOut
+    -Updated Profile
+    Fetch from TMDB Movies
+    
+
+    
 
 features:
     Login/Signup
