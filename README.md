@@ -17,8 +17,14 @@ NetflixGPT:
     Created Redux Slice with userSlice 
     Implemented SignOut
     -Updated Profile
-    Fetch from TMDB Movies
-    
+    Register TMDB API & Create an App & get access token 
+    Get Data from TMDB now playing movies list API 
+    Custom Hooks for now Playing Movies 
+    Create moviesSlice 
+    Update store with Trailer Video
+    Update store with Trailer video data
+    Embeeded the youtube video and make it autoPlay and mute 
+    Tailwind Classes to make main container look awesome 
 
     
 

@@ -34,6 +34,7 @@ const Login = () => {
                 Password.current.value)
                 .then((userCredential) => {
                     // Signed up 
+                    // console.log(userCredential);
                     const user = userCredential.user;
                     // console.log("User created:", user);
                     // ...
@@ -49,6 +50,7 @@ const Login = () => {
             signInWithEmailAndPassword(auth, Email.current.value,
                 Password.current.value)
                 .then((userCredential) => {
+                    console.log(userCredential);
                     console.log("User signed in:", userCredential.user);
                 })
                 .catch((error) => {

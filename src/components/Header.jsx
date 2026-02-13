@@ -17,6 +17,9 @@ const Header = () => {
   // An error happened.
   navigate("/error")
 });
+
+
+
   }
   return (
     <div className='top-0 left-0 flex w-full absolute px-8 py-2 bg-gradient-to-b from-black to-transparent flex justify-between'>
